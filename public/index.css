@@ -1,0 +1,69 @@
+html,body{
+    background: cornflowerblue;
+    height: 100vh;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    text-align: center;
+    grid-template-rows: repeat(3, 30%);
+}
+
+header{
+    grid-column: 1/5;
+    grid-row: 1;
+}
+
+sidebar1{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+article{
+    grid-column: 2/4;
+    grid-row: 2;
+}
+
+sidebar2{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+footer{
+    grid-column: 1/5;
+    grid-row: 3;
+}
+
+.containerEx2{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    text-align: center;
+}
+
+header1{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+section1{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+section2{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+section3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+section4{
+    grid-column: 3;
+    grid-row: 2;
+}
